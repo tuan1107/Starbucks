@@ -1,0 +1,47 @@
+
+
+.cafe {
+    position: absolute;
+    width: calc(100% + 90px);
+    list-style-type: none;
+    max-height: 0;
+    z-index: 1;
+    background-color: #16a085;
+    padding: 0;
+  margin-top: 20px;
+    overflow: hidden;
+    transition: .5s;
+}
+.cafe>li {
+    transition: none;
+    padding: 0;
+    background-color: #d4e9e2;
+    display: inline-block;
+    width: 100%;
+}
+.cafe>li{
+    box-sizing: border-box;
+    padding: 5px;
+}
+.cafe>li>a {
+    font-family: 'consolas';
+    font-size: 20px;
+    color: black;
+    display: inline-block;
+    margin: 0;
+    text-decoration: none;
+}
+
+.cafe li a:hover {
+    font-size: 19px;
+    width: 100%;
+    color: white;
+    display: inline-block;
+    background: #16a085;
+    font-weight: bold;
+    transition: .1s;
+}
+
+.menu li:hover .cafe {
+    max-height: 100px;
+}

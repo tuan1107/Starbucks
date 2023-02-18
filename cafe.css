@@ -1,0 +1,83 @@
+#third{
+    height: 400px;
+    width: 100%;
+    background-color: #d4e9e2;
+   position: relative;
+}
+
+.se{
+    height: 400px;
+    width: 100%;
+    background-color: #f4c5a1;
+    position: relative;
+}
+.sec{
+    height: 400px;
+    width: 100%;
+    background-color:#8b323e;
+    position: relative;
+}
+#third .ok {
+width:25%;
+position: absolute;
+height: 400px;
+}
+#third .oke {
+    padding-left: 1234px;
+width: 450px;
+position: absolute;
+height: 400px;
+    
+    }
+#third .h{
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+    
+}
+#third .k{
+    padding-right: 500px;
+     
+}
+#third h3{
+	margin:20px 110px;
+	color: #EC9918;
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Pacifico', cursive;
+}
+#third h2{
+	margin:30px 150px;
+	color: #105625;
+	font-size: 40px;
+	font-family: 'Permanent Marker', cursive;
+	
+}
+#third p{
+	margin:20px 150px;
+	color:black;
+	font-size: 20px;
+	font-family: 'Signika', sans-serif;
+}
+#third a{
+    border-width: 1px;
+    padding: 7px 16px;
+    background-color: none;
+    border-radius: 50px;
+    border-style: solid;
+    color:black ;
+    font-size: larger;
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+}
+#third .order{
+    display: inline-block;
+    background-color: #f4c5a1;
+}
+
+#third a:hover{
+    background-color: gray;
+    color: white;
+    border: 1px black;
+}

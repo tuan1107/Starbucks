@@ -1,0 +1,27 @@
+#sanpham{
+    width: 100%;
+    height: 2000px;
+    background-color: #f1f2f6;
+}
+#sanpham h1{
+    text-align: center;
+    font-size: 40px;
+}
+#sanpham p{
+    text-align: center;
+    font-size: 25px;
+}
+.td{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 50px;
+    color: #2980b9;
+    margin-top: -150px;
+}
+p{
+    margin-bottom: 20px;
+}
+#sanpham .h{
+    margin-top: 60px;
+    font-size: 30px;
+}
